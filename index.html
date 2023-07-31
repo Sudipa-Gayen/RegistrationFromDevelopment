@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>REGISTRATION FROM</h1>
+     <form class="for" id="myForm">
+        Name:
+        <input type="text" id="name" name="name" placeholder="Enter Your Name">
+        <br>
+        Father Name:
+        <input type="text" id="fname" name="fname" placeholder="Enter Your Father Name">
+        <br>
+        Email Address:
+        <input type="email" id="mail" name="mail" placeholder="Enter Your Email">
+        <br>
+        Mobile Number:
+        <input type="text" id="no" name="no" placeholder="Enter Mobile Number">
+        <br>
+        <div class="gen"  >Select Your Gender:
+        <input type="radio" name="gender" id="gen" value="Male">Male
+        <input type="radio" name="gender" id="gen" value="Female">Female
+        <input type="radio" name="gender" id="gen" value="Other">Other
+        </div>
+        Select Your Date Of Birth :
+        <input type="date" name="dof" id="dof">
+        <div class="chosse">In Which Development Are You Intreasted:
+            <input type="checkbox" name="interest" id="type" value="Android Development"> Android Development
+            <input type="checkbox" name="interest" id="type" value="Web Development"> Web Development
+        </div>
+        <button class="btn" type="submit" value="submit">SUBMIT</button>
+     </form>
+    <script src="script.js"></script>
+</body>
+</html>
